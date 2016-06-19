@@ -1,2 +1,2 @@
-# mastering-jaz.github.io
-Website for [mastering-jaz.github.io]
+# Mastering Job Arranger for Zabbix
+Website for [mastering-jaz.github.io] providing tutorials
