@@ -5,6 +5,7 @@ kramdown:
   input: GFM
 gems:
   - jekyll-redirect-from
+  - jekyll-seo-tag
 whitelist:
   - jekyll-redirect-from
 defaults:
@@ -12,3 +13,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+title: "Mastering Job Arranger for Zabbix!"
+description: "Mastering Job Arranger for Zabbix!"
+url: https://mastering-jaz.github.io
+logo: https://mastering-jaz.github.io/img/mjaz.png
+author:
+  twitter: pm_verma
