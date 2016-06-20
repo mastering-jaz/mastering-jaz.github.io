@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">{% if '/index.html' == page.url or '/' == page.url %}
+    <meta name="description" content="Build a great infrastructure automation experience with Job Arranger for Zabbix. A place where you can learn how to design and build Open Source Job Scheduler For Zabbix for small-medium-large deployments.">{% endif %}
     <meta name="author" content="mastering-jaz.github.io">
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#353d47">
@@ -11,7 +12,7 @@
     <meta name="msapplication-navbutton-color" content="#353d47">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#353d47">
-    <title>Oops!! 404</title>
+    <title>{{ page.title }}</title>
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
@@ -21,15 +22,17 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
 
     <!-- CSS Libs -->
-    <link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/lib/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/lib/css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/lib/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="/lib/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/lib/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/lib/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/lib/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/lib/css/dataTables.bootstrap.css">
     <!-- CSS App -->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/css/themes/flat-blue.css">
-    
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/themes/flat-blue.css">
+    {% if page.home == true %}
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/home.css">
+    {% endif %}
     <!-- Bootstrap Docs CSS subset to get icon -->
     <!--<link href="/css/bootstrap-docs.css" rel="stylesheet">-->
 
@@ -41,17 +44,17 @@
     <![endif]-->
 
     <!-- Favicon with QHD -->
-    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/img/favicon-16x16.png" sizes="16x16" />
 </head>
 
 <body class="flat-blue">
-    <div class="app-container expanded ">
+    <div class="app-container{% if page.home == true %} home{% else %} expanded {% endif %}">
         <div class="row content-container">
             <nav class="navbar navbar-inverse navbar-fixed-top navbar-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-expand-toggle fa-rotate-90">
+                        <button type="button" class="navbar-expand-toggle{% if page.home != true %} fa-rotate-90{% endif %}">
                             <i class="fa fa-bars icon"></i>
                         </button>
                         <ol class="breadcrumb navbar-breadcrumb">
@@ -65,7 +68,17 @@
                         <button type="button" class="navbar-right-expand-toggle pull-right visible-xs light">
                             <i class="fa fa-times icon"></i>
                         </button>
-                        
+                        {% if page.home == true %}
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#systemarch">System Arch</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#gettingstarted">Getting Started</a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
             </nav>
@@ -74,7 +87,7 @@
                     <div class="side-menu-container">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="/">
-                                <div class="icon"><img src="/img/mjaz.png" height="50px"></div>
+                                <div class="icon"><img src="{{ site.url }}/img/mjaz.png" height="50px"></div>
                                 <div class="title brand"> Mastering JAZ </div>
                             </a>
                             <button type="button" class="navbar-expand-toggle pull-right visible-xs">
@@ -82,13 +95,13 @@
                             </button>
                         </div>
                         <ul class="nav navbar-nav">
-                            <li >
+                            <li {% if '/index.html' == page.url %}class="active" {% endif %}>
                                 <a href="/">
                                     <span class="icon fa fa-home"></span><span class="title">Home</span>
                                 </a>
                             </li>
-                            <li >
-                                <a href="/tutorials/">
+                            <li {% if '/tutorials/' == page.url %}class="active" {% endif %}>
+                                <a href="{{ site.url }}/tutorials/">
                                     <span class="icon fa fa-file-text-o"></span><span class="title">Tutorials</span>
                                 </a>
                             </li>
@@ -100,10 +113,10 @@
                                 <div id="dropdown-1" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="/system-arch/"><i class="fa fa-fw fa-stack-overflow"></i>System Architecture</a></li>
-                                            <li ><a href="/presentation" target="_blank"><i class="fa fa-fw fa-desktop"></i>Sample presentation slides</a></li>
-                                            <li ><a href="/screenshots/"><i class="fa fa-fw fa-picture-o"></i>Screenshots</a></li>
-                                            <li ><a href="/video-tutorial/"><i class="fa fa-fw fa-film"></i>Simple Demo Video</a></li>
+                                            <li {% if '/system-arch/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/system-arch/"><i class="fa fa-fw fa-stack-overflow"></i>System Architecture</a></li>
+                                            <li {% if '/presentation' == page.url %}class="active" {% endif %}><a href="/presentation" target="_blank"><i class="fa fa-fw fa-desktop"></i>Sample presentation slides</a></li>
+                                            <li {% if '/screenshots/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/screenshots/"><i class="fa fa-fw fa-picture-o"></i>Screenshots</a></li>
+                                            <li {% if '/video-tutorial/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/video-tutorial/"><i class="fa fa-fw fa-film"></i>Simple Demo Video</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -116,9 +129,9 @@
                                 <div id="dropdown-2" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="/installation/"><i class="fa fa-fw fa-cloud-download"></i> Installing Job Arranger for Zabbix</a></li>
-                                            <li ><a href="/configuration/"><i class="fa fa-fw fa-keyboard-o"></i> Configuring Job Arranger for Zabbix</a></li>
-                                            <li ><a href="/running/"><i class="fa fa-fw fa-music"></i> Running Job Arranger for Zabbix</a></li>
+                                            <li {% if '/installation/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/installation/"><i class="fa fa-fw fa-cloud-download"></i> Installing Job Arranger for Zabbix</a></li>
+                                            <li {% if '/configuration/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/configuration/"><i class="fa fa-fw fa-keyboard-o"></i> Configuring Job Arranger for Zabbix</a></li>
+                                            <li {% if '/running/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/running/"><i class="fa fa-fw fa-music"></i> Running Job Arranger for Zabbix</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -128,9 +141,9 @@
                                 <div id="dropdown-3" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="/microservices-architecture/"><i class="fa fa-fw  fa-calendar"></i> Creating Calendar</a></li>
-                                            <li ><a href="/creating-an-app/"><i class="fa fa-fw fa-line-chart"></i> Creating Schedules</a></li>
-                                            <li ><a href="/creating-an-entity/"><i class="fa fa-fw fa-list-alt"></i> Creating Jobnets</a></li>
+                                            <li {% if '/calendar/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/microservices-architecture/"><i class="fa fa-fw  fa-calendar"></i> Creating Calendar</a></li>
+                                            <li {% if '/schedules/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/creating-an-app/"><i class="fa fa-fw fa-line-chart"></i> Creating Schedules</a></li>
+                                            <li {% if '/jobnets/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/creating-an-entity/"><i class="fa fa-fw fa-list-alt"></i> Creating Jobnets</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -140,26 +153,26 @@
                                 <div id="dropdown-5" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="/start-icon/"><i class="fa fa-fw fa-circle"></i> Start Icon</a></li>
-                                            <li ><a href="/end-icon/"><i class="fa fa-fw fa-circle"></i> End Icon</a></li>
-                                            <li ><a href="/job-icon/"><i class="fa fa-fw fa-circle"></i> Job Icon</a></li>
-                                            <li ><a href="/conditional-branch-icon/"><i class="fa fa-fw fa-circle"></i> Conditional Branch Icon</a></li>
-                                            <li ><a href="/conditional-branch-end-icon/"><i class="fa fa-fw fa-circle"></i> Conditional Branch End Icon</a></li>
-                                            <li ><a href="/parallel-processing-icon/"><i class="fa fa-fw fa-circle"></i> Parallel Processing Icon</a></li>
-                                            <li ><a href="/job-controller-variable-icon/"><i class="fa fa-fw fa-circle"></i> Job Controller Variable Icon</a></li>
-                                            <li ><a href="/extended-job-icon/"><i class="fa fa-fw fa-circle"></i> Extended Job Icon</a></li>
-                                            <li ><a href="/job-icon/"><i class="fa fa-fw fa-circle"></i> JobNet Icon</a></li>
-                                            <li ><a href="/calculation-icon/"><i class="fa fa-fw fa-circle"></i> Calculation Icon</a></li>
-                                            <li ><a href="/loop-icon/"><i class="fa fa-fw fa-circle"></i> Loop Icon</a></li>
-                                            <li ><a href="/task-icon/"><i class="fa fa-fw fa-circle"></i> Task Icon</a></li>
-                                            <li ><a href="/information-acquisition-icon/"><i class="fa fa-fw fa-circle"></i> Information Acquisition Icon</a></li>
-                                            <li ><a href="/file-transfer-icon/"><i class="fa fa-fw fa-circle"></i> File Transfer Icon</a></li>
-                                            <li ><a href="/file-waiting-icon/"><i class="fa fa-fw fa-circle"></i> File Waiting Icon</a></li>
-                                            <li ><a href="/reboot-icon/"><i class="fa fa-fw fa-circle"></i> Reboot Icon</a></li>
-                                            <li ><a href="/unhold-icon/"><i class="fa fa-fw fa-circle"></i> Unhold Icon</a></li>
-                                            <li ><a href="/agentless-icon/"><i class="fa fa-fw fa-circle"></i> Agentless Icon</a></li>
-                                            <li ><a href="/zabbix-linkage-icon/"><i class="fa fa-fw fa-circle"></i> Zabbix Linkage Icon</a></li>
-                                            <li ><a href="/flow-icon/"><i class="fa fa-fw fa-circle"></i> Flow (processing line)</a></li>
+                                            <li {% if '/start-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/start-icon/"><i class="fa fa-fw fa-circle"></i> Start Icon</a></li>
+                                            <li {% if '/end-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/end-icon/"><i class="fa fa-fw fa-circle"></i> End Icon</a></li>
+                                            <li {% if '/job-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-icon/"><i class="fa fa-fw fa-circle"></i> Job Icon</a></li>
+                                            <li {% if '/conditional-branch-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/conditional-branch-icon/"><i class="fa fa-fw fa-circle"></i> Conditional Branch Icon</a></li>
+                                            <li {% if '/conditional-branch-end-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/conditional-branch-end-icon/"><i class="fa fa-fw fa-circle"></i> Conditional Branch End Icon</a></li>
+                                            <li {% if '/parallel-processing-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/parallel-processing-icon/"><i class="fa fa-fw fa-circle"></i> Parallel Processing Icon</a></li>
+                                            <li {% if '/job-controller-variable-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-controller-variable-icon/"><i class="fa fa-fw fa-circle"></i> Job Controller Variable Icon</a></li>
+                                            <li {% if '/extendedjob-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/extended-job-icon/"><i class="fa fa-fw fa-circle"></i> Extended Job Icon</a></li>
+                                            <li {% if '/jobnet-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-icon/"><i class="fa fa-fw fa-circle"></i> JobNet Icon</a></li>
+                                            <li {% if '/calculation-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/calculation-icon/"><i class="fa fa-fw fa-circle"></i> Calculation Icon</a></li>
+                                            <li {% if '/loop-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/loop-icon/"><i class="fa fa-fw fa-circle"></i> Loop Icon</a></li>
+                                            <li {% if '/task-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/task-icon/"><i class="fa fa-fw fa-circle"></i> Task Icon</a></li>
+                                            <li {% if '/information-acquisition-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/information-acquisition-icon/"><i class="fa fa-fw fa-circle"></i> Information Acquisition Icon</a></li>
+                                            <li {% if '/file-transfer-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/file-transfer-icon/"><i class="fa fa-fw fa-circle"></i> File Transfer Icon</a></li>
+                                            <li {% if '/file-waiting-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/file-waiting-icon/"><i class="fa fa-fw fa-circle"></i> File Waiting Icon</a></li>
+                                            <li {% if '/reboot-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/reboot-icon/"><i class="fa fa-fw fa-circle"></i> Reboot Icon</a></li>
+                                            <li {% if '/unhold-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/unhold-icon/"><i class="fa fa-fw fa-circle"></i> Unhold Icon</a></li>
+                                            <li {% if '/agentless-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/agentless-icon/"><i class="fa fa-fw fa-circle"></i> Agentless Icon</a></li>
+                                            <li {% if '/zabbix-linkage-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/zabbix-linkage-icon/"><i class="fa fa-fw fa-circle"></i> Zabbix Linkage Icon</a></li>
+                                            <li {% if '/flow-icon/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/flow-icon/"><i class="fa fa-fw fa-circle"></i> Flow (processing line)</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -169,13 +182,13 @@
                                 <div id="dropdown-7" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="/production/"><i class="fa fa-fw fa-play-circle"></i> Using in production</a></li>
-                                            <li ><a href="/monitoring/"><i class="fa fa-fw fa-line-chart"></i> Monitoring</a></li>
+                                            <li {% if '/production/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/production/"><i class="fa fa-fw fa-play-circle"></i> Using in production</a></li>
+                                            <li {% if '/monitoring/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/monitoring/"><i class="fa fa-fw fa-line-chart"></i> Monitoring</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
-                            <li ><a href="/tips/"><span class="icon fa fa-fw fa-cogs"></span><span class="title">Tips'n tricks</span></a></li>
+                            <li {% if '/tips/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/tips/"><span class="icon fa fa-fw fa-cogs"></span><span class="title">Tips'n tricks</span></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -186,17 +199,14 @@
 
             <div id="page-wrapper" class="container-fluid">
                 <div class="side-body" id="page-top">
-                    
+                    {% if page.layout_grid == true %} {{ content }} {% else %}
                     <div class="row page-content-wrapper">
                         <div class="col-lg-12">
-                            <h2 id="seems-like-the-page-you-are-looking-for-does-not-exist-or-has-moved-or-is-under-construction">Seems like the page you are looking for does not exist or has moved or is under construction.</h2>
-
-<p>Go to the <a href="/">Home page</a> or choose an item from the sidebar.</p>
-
+                            {{ content }}
                         </div>
                     </div>
                     <!-- /.row -->
-                    
+                    {% endif %}
 
                     <!-- Footer -->
                     <footer class="text-center">
@@ -245,18 +255,23 @@
         <!-- /#wrapper -->
     </div>
     <!-- Javascript Libs -->
-    <script type="text/javascript" src="/lib/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/lib/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/lib/js/ace.js"></script>
-    <script type="text/javascript" src="/lib/js/mode-html.js"></script>
-    <script type="text/javascript" src="/lib/js/theme-github.js"></script>
-    <script type="text/javascript" src="/lib/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/ace.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/mode-html.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/theme-github.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/jquery.easing.min.js"></script>
 
-    
+    {% if page.angularjs == true %}
+    <script type="text/javascript" src="{{ site.url }}/lib/js/angular-1.4.8.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/lib/js/angular-route-1.4.8.min.js"></script>
+    {% endif %}
 
     <!--App Javascript -->
-    <script type="text/javascript" src="/js/app.js"></script>
-    
+    <script type="text/javascript" src="{{ site.url }}/js/app.js"></script>
+    {% if page.home == true %}
+    <script type="text/javascript" src="{{ site.url }}/js/index.js"></script>
+    {% endif %}
     <!-- JavaScript -->
     <script>
         (function (i, s, o, g, r, a, m) {
