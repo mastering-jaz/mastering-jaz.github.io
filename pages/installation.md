@@ -17,6 +17,6 @@ sitemap:
 
 *   **[Installation from packages]({{ site.url }}/installation-from-packages)**
 
-*   **[Installation from source]({{ site.url }}/installation-from-sources)**
+*   **[Installation from source]({{ site.url }}/installation-from-source)**
 
 If you do not have any specific reason to compile and install from source, it is better to install from already available packages.
