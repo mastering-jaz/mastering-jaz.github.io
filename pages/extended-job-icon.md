@@ -1,9 +1,9 @@
 ---
 layout: default
 title:  Extendedjob Icon
-permalink:  /extendedjob-icon/
+permalink:  /extended-job-icon/
 redirect_from: 
-    - /extendedjob-icon.html
+    - /extended-job-icon.html
 sitemap: 
     priority: 0.7
     lastmod: 2016-06-25T00:00:00-00:00
