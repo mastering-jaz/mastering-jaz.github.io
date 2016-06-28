@@ -12,7 +12,7 @@ sitemap:
 # <i class="fa fa-cogs"></i> System Architecture of Job Arranger for Zabbix
 
 
-### [JAZ components]({{ site.url }}/jaz-components/) contains following three components.
+### [JAZ components]({{ site.url }}/jaz-components-overview/) contains following three components.
 
 *   **Job Server** - centrally manages the entire jobs
 *   **Job Agents** - installed on each server to execute jobs commanded from Job Server
