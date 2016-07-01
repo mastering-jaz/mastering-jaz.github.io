@@ -11,4 +11,28 @@ sitemap:
 
 # Job Manager
 
-Details concept coming soon!
+### Overview
+
+Job Manager is the application most time users will be using to manage and monitor the jobs and schedules.
+
+This is a windows based application which directly talks to JAZ database.
+
+From this application, most time user will be doing:
+
+*	monitoring the running jobnets
+
+less time user will be doing:
+
+*	Creating jobnets
+*	Creating schedules
+*	Creating calendars
+*	Enabling/disabling the jobnets,schedules and calendars	
+*	Changing settings
+*	Searching jobs run history if necessary
+
+### Supported Environment
+
+*	Windows XP
+*	Windows 7
+*	Windows 8
+**Later versions of Windows should also work**
