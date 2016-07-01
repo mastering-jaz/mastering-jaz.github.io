@@ -9,7 +9,7 @@ sitemap:
     lastmod: 2016-06-28T00:00:00-00:00
 ---
 
-# Job Manager
+# <i class="fa fa-plug"></i> Job Manager
 
 ### Overview
 
