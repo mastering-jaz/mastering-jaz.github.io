@@ -30,9 +30,17 @@ less time user will be doing:
 *	Changing settings
 *	Searching jobs run history if necessary
 
+
+**Configuration file**
+
+See the [configuration]({{ site.url }}/#) file options for details on configuring Job manager.
+
+
 ### Supported Environment
 
 *	Windows XP
 *	Windows 7
 *	Windows 8
+
+
 **Later versions of Windows should also work**
