@@ -57,7 +57,7 @@ See the [configuration]({{ site.url }}/#) file options for details on configurin
 
 **Start-up scripts**
 
-The scripts are used to automatically start/stop Zabbix processes during system's start-up/shutdown.
+The scripts are used to automatically start/stop Job Server processes during system's start-up/shutdown.
 The scripts are located under default directory for each platforms if you have installed from packages.
 
 ### Supported platforms
