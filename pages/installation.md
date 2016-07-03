@@ -15,8 +15,25 @@ sitemap:
 
 ### Two types available:
 
-*   **[Installation from packages]({{ site.url }}/installation-from-packages)**
+*   **Installation from package**
 
-*   **[Installation from source]({{ site.url }}/installation-from-source)**
+*   **Installation from source**
 
-If you do not have any specific reason to compile and install from source, it is better to install from already available packages.
+<p class="alert alert-info"> If you do not have any specific reason to compile and install from source, it is better to install from already available packages </p>
+
+## Job Server
+
+*   **[Install from package]({{ site.url }}/install-job-server-from-package)**
+*   **[Install from source]({{ site.url }}/install-job-server-from-source)**
+
+
+## Job Agent
+
+*   **[Install from package]({{ site.url }}/install-job-agent-from-package)**
+*   **[Install from source]({{ site.url }}/install-job-agent-from-source)**
+
+
+## Job Manager
+
+*   **[Install from package]({{ site.url }}/install-job-manager-from-package)**
+*   **[Install from source]({{ site.url }}/install-job-manager-from-source)**
