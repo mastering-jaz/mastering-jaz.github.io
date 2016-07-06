@@ -15,8 +15,8 @@ sitemap:
 
 ### Operating Systems
 
-*	**Red Hat Enterprise Linux 5.x later**
-*	**CentOS 5.x later**
+*	Red Hat Enterprise Linux 5.x later
+*	CentOS 5.x later
 
 **Please check [Official Repository](https://ftf-support.fitechforce.com/redmine/projects/job-arranger-for-zabbix/repository) to verify which version you need and does it support your OS or not.**
 
@@ -29,10 +29,10 @@ There is no any specific requirement of hardware as far as your systems run on i
 
 ### Software
 
-*	**Zabbix 1.8.x, 2.x, 3.x**
-*	**MySQL 5.0 or later**
-*	**Postgresql 9.1 or later**
-*	**libss2 1.0.0 or later**
+*	Zabbix 1.8.x, 2.x, 3.x
+*	MySQL 5.0 or later
+*	Postgresql 9.1 or later
+*	libss2 1.0.0 or later
 
 **You do not need to install any database because JAZ uses Zabbix database.**
 

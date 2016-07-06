@@ -11,4 +11,4 @@ sitemap:
 
 # <i class="fa fa-cloud-download"></i> Installing Job Manager
 
-Installation details coming soon
+**Please check [Official Website](http://job-scheduler.fitechforce.com/) for more information.**
