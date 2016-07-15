@@ -10,6 +10,15 @@ sitemap:
 ---
 
 
-# <i class="fa fa-circle"></i>Start Icon
+# Start Icon
 
-Details coming soon!
+
+### Shape
+
+![Start Icon]({{ site.url }}/img/jazicons/start-icon.png)
+
+### Description
+
+Every jobnet will start with a **start icon**.
+
+This is the entry point for a jobnet execution.
