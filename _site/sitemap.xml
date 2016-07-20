@@ -1,19 +1,470 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-      <loc>http://mastering-jaz.github.io</loc>
-      <changefreq>daily</changefreq>
-      <priority>0.6</priority>
+      <loc>https://mastering-jaz.github.io</loc>
+      <changefreq>monthly</changefreq>
+       <lastmod>2016-06-29</lastmod>
+      <priority>0.8</priority>
   </url>
   
   
       <url>
+        <loc>https://mastering-jaz.github.io/agentless-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/calculation-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/conditional-branch-end-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/conditional-branch-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/configuration-of-agent/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/configuration-of-manager/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/configuration-of-server/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/configuration/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/create-calendars/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/create-jobnets/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/create-schedules/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/definitions/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/end-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/extended-job-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/file-transfer-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/file-waiting-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/flow-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
         <loc>https://mastering-jaz.github.io/</loc>
-        <lastmod>2016-05-25T00:00:00+00:00</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2016-06-22T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
     
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/information-acquisition-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-agent-from-package/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-agent-from-source/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-manager-from-package/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-manager-from-source/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-server-from-package/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/install-job-server-from-source/</loc>
+        <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/installation-from-packages/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/installation-from-source/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/installation/</loc>
+        <lastmod>2016-06-22T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/jaz-components-overview/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-agent-concept/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-controller-variable-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-manager-concept/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-monitor-concept/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/job-server-concept/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/jobnet-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/loop-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/monitoring/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/parallel-processing-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/reboot-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/running/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/screenshots/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/start-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/system-architecture/</loc>
+        <lastmod>2016-06-22T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/task-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/tips/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/tutorials-home/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/unhold-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/using-in-production/</loc>
+        <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/video-demo/</loc>
+        <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+      <url>
+        <loc>https://mastering-jaz.github.io/zabbix-linkage-icon/</loc>
+        <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </urlset>

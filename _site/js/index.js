@@ -18,22 +18,3 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
-
-// Angular JS code
-(function () {
-    'use-strict';
-
-    angular.module('mastering-jaz', [])
-        .config([
-          '$interpolateProvider',
-            function ($interpolateProvider) {
-                return $interpolateProvider.startSymbol('{(').endSymbol(')}');
-          }
-        ])
-        .controller('HomeController', HomeController);
-    
-    HomeController.$inject = ['$scope'];
-    function HomeController(argument) {
-        // body...
-    }
-})();
