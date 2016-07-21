@@ -22,3 +22,11 @@ sitemap:
 Every jobnet will start with a **start icon**.
 
 This is the entry point for a jobnet execution.
+
+### Setting
+
+![]({{ site.url }}/img/jazicons/start-setting.png)
+
+**Details**
+
+You can provide id and name if you want.
