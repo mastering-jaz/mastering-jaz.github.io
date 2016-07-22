@@ -9,5 +9,24 @@ sitemap:
     lastmod: 2016-06-25T00:00:00-00:00
 ---
 
-# <i class="fa fa-circle"></i> Job Controller Variable Icon
-Details coming soon!
+# Job Controller Variable Icon
+
+### Shape
+
+![End Icon]({{ site.url }}/img/jazicons/job-control-variable-icon.png)
+
+### Description
+
+This is a way to provide user defined environmental variables to the job.
+
+If a jobnet contains this icon, then all the following icons will have access to those variable defined in this icon.
+
+### Setting
+
+![End Setting]({{ site.url }}/img/jazicons/job-control-variable-setting.png)
+
+#### Details
+
+You can provide id and name.
+
+You can add or delete environmental variables.
