@@ -30,7 +30,7 @@ However if execution flow reach to an end icon, then jobnet will finish and no o
 
 #### Details
 
-You can provide id and name if you want.
+You can provide id and name.
 
 *   **Jobnet stop** : If you "on" the check box, job execution flow will be held/paused at this point. 
     Normally you won't need this to "on". However, in a large and nested jobnet, this might help with some situation such 

@@ -29,4 +29,4 @@ This is the entry point for a jobnet execution.
 
 **Details**
 
-You can provide id and name if you want.
+You can provide id and name.
