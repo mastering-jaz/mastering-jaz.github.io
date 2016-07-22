@@ -39,6 +39,6 @@ You can provide id and name.
 *   **Force run** : The default behavior of JAZ is that if the target host is disabled in Zabbix then job will not run on that host and job execution results in error. 
     However, if you want to run the job even if target host is disabled then you should "on" this check box.
 *   **Continue** : The default behavior of JAZ is that if a job execution results in error then execution flow will be stopped at that point. 
-    If you are sure enough that you understand what you are doing and want to continue the execution flow even if job executed resulted in error, then perhaps you may like to "on" this check box.
+    If you are sure enough that you understand what you are doing and want to continue the execution flow even if job execution resulted in error, then perhaps you may like to "on" this check box.
 *   **Run user** : Job will be run with this user. Your OS must have the user created.
 *   **Password** : Windows need password along with **Run user**, this will be ignored for other OS.

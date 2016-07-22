@@ -9,7 +9,7 @@ sitemap:
     lastmod: 2016-07-22T00:00:00-00:00
 ---
 
-# Conditional Branch Icon
+# Conditional Branch Icon (a.k.a If Icon)
 
 ### Shape
 
