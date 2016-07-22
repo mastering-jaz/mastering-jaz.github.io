@@ -18,7 +18,7 @@ sitemap:
 ### Description
 
 The the execution flow you separated by using [Conditional Branch a.k.a If Icon]({{ site.url }}/conditional-branch-icon/), 
-you can re-integrate those flow by using this icon and continue with a single flow.
+you can re-integrate those flows by using this icon and continue with a single flow.
 
 This icon can also be used to integrate multiple execution flows into a single flow.
 
