@@ -9,5 +9,24 @@ sitemap:
     lastmod: 2016-06-25T00:00:00-00:00
 ---
 
-# <i class="fa fa-circle"></i> Task Icon
-Details coming soon!
+# Task Icon
+
+### Shape
+
+![Task Icon]({{ site.url }}/img/jazicons/task-icon.png)
+
+### Description
+
+Any jobnet started by using this icon will start as an independent jobnet.
+
+**Note** Don't be confused with [Jobnet Icon] ({{ site.url}}/jobnet-icon/).
+
+### Setting
+
+![Task Setting]({{ site.url }}/img/jazicons/task-setting.png)
+
+#### Details
+
+You can provide id and name.
+
+**Jobnet id** : Select a jobnet id which you want to start as an independent jobnet.
