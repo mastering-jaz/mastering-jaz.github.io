@@ -34,8 +34,8 @@ And then based on result you can take the desired action.
 You can provide id and name.
 
 
-**Information classification** : Select information type you want to get.
+*   **Information classification** : Select information type you want to get.
 
-**Job id** : In case if you have selected to check other icons, you must provide the jobid of that icon.
+*   **Job id** : In case if you have selected to check other icons, you must provide the jobid of that icon.
 
-**Calendar icon** : In case if you want to check if today is running day for a specific calendar then select calendar here.
+*   **Calendar icon** : In case if you want to check if today is running day for a specific calendar then select calendar here.

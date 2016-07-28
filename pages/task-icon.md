@@ -29,4 +29,4 @@ Any jobnet started by using this icon will start as an independent jobnet.
 
 You can provide id and name.
 
-**Jobnet id** : Select a jobnet id which you want to start as an independent jobnet.
+*   **Jobnet id** : Select a jobnet id which you want to start as an independent jobnet.
