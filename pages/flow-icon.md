@@ -9,5 +9,24 @@ sitemap:
     lastmod: 2016-06-25T00:00:00-00:00
 ---
 
-# <i class="fa fa-circle"></i> Flow Icon
-Details coming soon!
+# Flow Icon
+
+### Shape
+
+![Flow Icon]({{ site.url }}/img/jazicons/flow-icon.png)
+
+### Description
+
+The flow icon which defines execution flow.
+
+This actually is not an icon, however it just defines flow.
+
+### Setting
+
+![End Setting]({{ site.url }}/img/jazicons/flow-setting.png)
+
+#### Details
+
+Depending on the icon, flow icon will have settings to give.
+
+For eg, output flow of `conditional branch icon a.k.a if-icon` will have to give TRUE/FALSE settings as in above image.
