@@ -23,7 +23,7 @@ This actually is not an icon, however it just defines flow.
 
 ### Setting
 
-![End Setting]({{ site.url }}/img/jazicons/flow-setting.png)
+![Flow Setting]({{ site.url }}/img/jazicons/flow-setting.png)
 
 #### Details
 

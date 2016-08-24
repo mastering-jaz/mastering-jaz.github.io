@@ -17,6 +17,7 @@ Following is the default job agent configuration file which comes with descripti
 
 **Note: Those highlighted text explanations are not part of config file, their inclusions are just for providing information.**
 
+**Note for Windows: Most settings are same. Directory value will be Windows-style.**
 
 <p class="alert alert-info">Normally, you will need to set Server and Hostname. Rest works fine with default values. </p>
 

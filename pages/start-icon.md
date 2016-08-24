@@ -25,7 +25,7 @@ This is the entry point for a jobnet execution.
 
 ### Setting
 
-![]({{ site.url }}/img/jazicons/start-setting.png)
+![Start Setting]({{ site.url }}/img/jazicons/start-setting.png)
 
 **Details**
 

@@ -13,7 +13,7 @@ sitemap:
 
 ### Shape
 
-![End Icon]({{ site.url }}/img/jazicons/reboot-icon.png)
+![Reboot Icon]({{ site.url }}/img/jazicons/reboot-icon.png)
 
 ### Description
 
@@ -21,7 +21,7 @@ Whenever you want to reboot a server, this is the icon you should be interested 
 
 ### Setting
 
-![End Setting]({{ site.url }}/img/jazicons/reboot-setting.png)
+![Reboot Setting]({{ site.url }}/img/jazicons/reboot-setting.png)
 
 #### Details
 

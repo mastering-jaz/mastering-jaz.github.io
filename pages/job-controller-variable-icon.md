@@ -13,7 +13,7 @@ sitemap:
 
 ### Shape
 
-![End Icon]({{ site.url }}/img/jazicons/job-control-variable-icon.png)
+![Job Controller Variable Icon]({{ site.url }}/img/jazicons/job-control-variable-icon.png)
 
 ### Description
 
@@ -23,7 +23,7 @@ If a jobnet contains this icon, then all the following icons will have access to
 
 ### Setting
 
-![End Setting]({{ site.url }}/img/jazicons/job-control-variable-setting.png)
+![Job Controller Variable Setting]({{ site.url }}/img/jazicons/job-control-variable-setting.png)
 
 #### Details
 
