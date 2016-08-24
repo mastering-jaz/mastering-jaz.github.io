@@ -18,6 +18,9 @@ Following is the default job server configuration file which comes with descript
 **Note: Those highlighted text explanations are not part of config file, their inclusions are just for providing information.**
 
 
+<p class="alert alert-info">Normally, you will need to set Database user/password. Rest works fine with default values. </p>
+
+
 <pre>
 # Job Arranger for ZABBIX
 # This is a configuration file for Job Arranger Server process
@@ -30,7 +33,7 @@ Following is the default job server configuration file which comes with descript
 # Mandatory: no
 # Default:
 # Include=
-<p class="alert alert-info"> It is better to avoid use of `Include` as it better fits with Zabbix where you can have separate files for similar configuration.
+<p class="alert alert-info">It is better to avoid use of `Include` as it better fits with Zabbix where you can have separate files for similar configuration.
 <a href="http://serverfault.com/questions/795406">http://serverfault.com/questions/795406</a>
 </p>
 ############ GENERAL PARAMETERS #################
