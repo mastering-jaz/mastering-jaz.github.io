@@ -34,7 +34,7 @@ Following is the default job server configuration file which comes with descript
 # Default:
 # Include=
 <p class="alert alert-info">It is better to avoid use of `Include` as it better fits with Zabbix where you can have separate files for similar configuration.
-<a href="http://serverfault.com/questions/795406">http://serverfault.com/questions/795406</a>
+<a href="http://serverfault.com/questions/795406" target="blank">http://serverfault.com/questions/795406</a>
 </p>
 ############ GENERAL PARAMETERS #################
 
