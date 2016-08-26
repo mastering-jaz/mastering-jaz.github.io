@@ -18,7 +18,7 @@ Creating a calendar let you define the dates to run Jobnets.
 Two type of calendars are available:
 
 *   **Public Calendars:** These are visible and usable to all users.
-*   **Private Calendars:** These calendars are visible only to same access group.
+*   **Private Calendars:** These are visible only to same access group.
 
 Following image shows a publicly created calendar.
 

@@ -15,6 +15,11 @@ In JAZ, nothing happens without a jobnet.
 
 A jobnet is a flow chart like diagram created using various icons.
 
+Two type of jobnets are available:
+
+*   **Public Jobnets:** These are visible and usable to all users.
+*   **Private Jobnets:** These are visible only to same access group.
+
 This jobnet define what to do on which server, do this, do that etc.
 
 Normally, many small independent jobnets are created and finally all of those are combined to form a JobNet.
