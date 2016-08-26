@@ -11,4 +11,19 @@ sitemap:
 
 # <i class="fa fa-calendar"></i> Creating Calendars
 
-Coming soon!
+This is one of the core parts of the job scheduling software.
+
+Creating a calendar let you define the dates to run Jobnets.
+
+Two type of calendars are available:
+
+*   **Public Calendars:** These are visible and usable to all users.
+*   **Private Calendars:** These calendars are visible only to same access group.
+
+Following image shows a publicly created calendar.
+
+![Calendar]({{ site.url }}/img/jazicon/calendar.png)
+
+These created calendars are use to create **[schedules]({{ site.url }}/create-schedules/)**.
+
+Check tutorials to continue on how to create a calendar.

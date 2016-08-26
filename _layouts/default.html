@@ -153,6 +153,7 @@
                                 <div id="dropdown-2" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
+                                            <li {% if '/definitions/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/definitions/"><i class="fa fa-fw fa-plug"></i>JAZ definitions</a></li>
                                             <li {% if '/job-server-concept/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-server-concept/"><i class="fa fa-fw fa-plug"></i>Job Server</a></li>
                                             <li {% if '/job-agent-concept/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-agent-concept/"><i class="fa fa-fw  fa-plug"></i>Job Agent</a></li>
                                             <li {% if '/job-manager-concept/' == page.url %}class="active" {% endif %}><a href="{{ site.url }}/job-manager-concept/"><i class="fa fa-fw fa-plug"></i>Job Manager</a></li>

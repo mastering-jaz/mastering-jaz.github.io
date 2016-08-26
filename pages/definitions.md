@@ -24,8 +24,7 @@ In this section you can learn the meaning of some terms commonly used in Job Arr
 -stands for Job Arranger Manager.
 
 ### JobNet
-- A flow chart like net of various icons
-- Normally, many small independent jobs are created and finally all of those are combined to form a JobNet.
+- A flow chart like diagram created using various icons
 - JobNet can also include other JobNets.
 
 ### Icons
