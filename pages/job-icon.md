@@ -30,7 +30,7 @@ You can provide id and name.
 *   **Host name** : Specify a target host on which command or script will be executed.
 *   **Variable** : Alternative to **Host name**, host name will be resolved from an environmental variable which is within this icon context.
 *   **Stop Command** : In case, if you force stop the running job, `SIGKILL` is sent to job executing process. 
-    If you want to provide custom command to execute for the force stop action, the you can provide with this.
+    If you want to provide custom command to execute for the force stop action, then you can provide with this.
 *   **Exec** : You can directly provide the command or script with or without parameter.
 *   **Job Variable** : You can provide custom variable to the **Exec** execution context.
 *   **Jobcontrol variable** : Built-in variable for this execution context, you need to "on" the check box to use it.
