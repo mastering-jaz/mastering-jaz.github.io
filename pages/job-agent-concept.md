@@ -13,7 +13,7 @@ sitemap:
 
 ### Overview
 
-Job agent is deployed on target host to instantly run the job upon receiving a job from Job Server.
+Job agent is deployed and run as a daemon/service on each target host to instantly run the job upon receiving a job from Job Server.
 
 It always listen on default port 10055 and as soon as it receives a job, it start executing the given job(mostly in a form of shell script).
 
@@ -21,7 +21,7 @@ Either job finished successfully or unsuccessfully, Job agent always send the re
 
 It uses SQLite to store and manage the jobs internally.
 
-Job agents are extremely efficient because of using native system calls.
+Job agents are extremely efficient because of using native [system calls](https://en.wikipedia.org/wiki/System_call).
 
 ### Agent process
 
@@ -50,10 +50,11 @@ shell>/usr/sbin/jobarg_agentd -V
 
 Same as Zabbix agent, Job agent is designed to run as a non-root user.
 However, if you want to run the process as root user then you have to change config `AllowRoot` parameter.
+Rather than running the processes with root user, it is recommended to use a `sudo` user.
 
 **Configuration file**
 
-See the [configuration]({{ site.url }}/#) file options for details on configuring Job agent.
+See the [configuration]({{ site.url }}/configuration-of-agent/) file options for details on configuring Job agent.
 
 **Start-up scripts**
 
@@ -68,7 +69,8 @@ The scripts are located under default directory for each platforms if you have i
 *   Windows Server 2008 R2
 *   HP-UX
 *   IBM AIX
+*   Amazon Linux - (starting from jaz version 3.2.x)
 
 ### Installation
 
-See the [Installation]({{ site.url }}/installation/) section.
+See the [Installation]({{ site.url }}/install-job-agent-from-package/) section.
