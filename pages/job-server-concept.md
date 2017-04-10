@@ -50,10 +50,11 @@ shell>/usr/sbin/jobarg_server -V
 
 Same as Zabbix server, Job server is designed to run as a non-root user. 
 However, if you want to run the process as root user then you have to change config `AllowRoot` parameter.
+Rather than running the processes with root user, it is recommended to use a `sudo` user.
 
 **Configuration file**
 
-See the [configuration]({{ site.url }}/#) file options for details on configuring Job Server.
+See the [configuration]({{ site.url }}/configuration-of-server/) file options for details on configuring Job Server.
 
 **Start-up scripts**
 
@@ -66,3 +67,7 @@ The scripts are located under default directory for each platforms if you have i
 *   CentOS 5.x or later
 
 **With version 3.0.0 realease, it seems they have dropped job server release for Redhat/CentOS 5.x**
+
+### Installation
+
+See the [Installation]({{ site.url }}/install-job-server-from-package/) section.
