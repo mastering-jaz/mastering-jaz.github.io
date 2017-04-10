@@ -24,8 +24,9 @@ In this section you can learn the meaning of some terms commonly used in Job Arr
 -stands for Job Arranger Manager.
 
 ### JobNet
-- A flow chart like diagram created using various icons
-- JobNet can also include other JobNets.
+- A flow chart like diagram created using various icons.
+- JobNet can also include other Jobnets which results in a nested Jobnets.
+- Also called as JobNets/Sub-Jobnets.
 
 ### Icons
 - JAZ specific icons which are used during creation of a JobNet.
