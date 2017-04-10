@@ -66,7 +66,7 @@ The scripts are located under default directory for each platforms if you have i
 
 *   CentOS 5.x or later
 
-**With version 3.0.0 realease, it seems they have dropped job server release for Redhat/CentOS 5.x**
+**JAZ Version 3 and later (only server package) has no longer support for Redhat/CentOS 5.x **
 
 ### Installation
 
