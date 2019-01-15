@@ -9,3 +9,6 @@ To run this locally
 * [Install Jekyll](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll)
 * Run `bundle exec jekyll serve` in the cloned repo folder
 * you will be able to access the site at http://localhost:4000
+
+
+**Note** This repo is not actively updated. Contributers are welcome!
